@@ -1,0 +1,16 @@
+# Virtual Environments - ignores any folder starting with .venv or venv
+.venv/
+venv/
+env/
+
+# Python Cache - ignores compiled bytecode
+__pycache__/
+*.py[cod]
+*$py.compile
+
+# Secrets - ignores files containing API keys
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
